@@ -112,10 +112,33 @@ class Inscricao
 
     public function read()
     {
-        $query = 'SELECT * FROM ' . $this->table . ' ORDER BY data_inscricao DESC';
+        $query = 'SELECT i.*, e.nome as nome_evento
+		            FROM ' . $this->table . ' i, evento e 
+			       WHERE i.evento = e.id
+			       ORDER BY data_inscricao DESC';
 
         $stmt = $this->conn->prepare($query);
 
+        $stmt->execute();
+
+        return $stmt;
+    }
+	
+	public function read_user()
+    {
+        $query = 'SELECT i.*, e.nome as nome_evento
+		            FROM ' . $this->table . ' i, evento e 
+			       WHERE i.evento = e.id
+				     AND i.usuario = ?
+			       ORDER BY data_inscricao DESC';
+				   
+		// Prepare statement
+        $stmt = $this->conn->prepare($query);
+
+        // Bind ID
+        $stmt->bindParam(1, $this->usuario);
+
+        // Execute query
         $stmt->execute();
 
         return $stmt;

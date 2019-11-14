@@ -23,7 +23,7 @@ $inscr->valor = $data->valor;
 $inscr->status = $data->status;
 $inscr->data_inscricao = $data->data_inscricao;
 
-// Create inscr
+// Create evento
 if ($inscr->create()) {
     echo json_encode(
         array('message' => 'Created')

@@ -21,7 +21,7 @@ $data = json_decode(file_get_contents("php://input"));
 $inscr->usuario = $data->usuario;
 $inscr->evento = $data->evento;
 
-// Delete inscr
+// Delete evento
 if($inscr->delete()) {
     echo json_encode(
         array('message' => 'Deleted')

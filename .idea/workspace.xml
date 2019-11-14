@@ -2,15 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1ff712c5-dae6-4bbc-952f-69a2b64001d5" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/inscricao/create.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/inscricao/delete.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/inscricao/read.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/inscricao/read_id.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/inscricao/update.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/Database.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/model/Inscricao.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/evento/read.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/inscricao/read_user.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/Evento.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/inscricao/create.php" beforeDir="false" afterPath="$PROJECT_DIR$/api/inscricao/create.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/inscricao/delete.php" beforeDir="false" afterPath="$PROJECT_DIR$/api/inscricao/delete.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/inscricao/update.php" beforeDir="false" afterPath="$PROJECT_DIR$/api/inscricao/update.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/Inscricao.php" beforeDir="false" afterPath="$PROJECT_DIR$/model/Inscricao.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -34,10 +33,20 @@
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/api/evento" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\adm\Documents\html\api_eventos\api\evento" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\adm\Documents\html\api_eventos\api" />
       <recent name="C:\Users\adm\Documents\html\api_eventos" />
@@ -66,7 +75,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1573415604351</updated>
-      <workItem from="1573415606537" duration="947000" />
+      <workItem from="1573415606537" duration="1059000" />
+      <workItem from="1573688637806" duration="1471000" />
     </task>
     <servers />
   </component>
@@ -78,7 +88,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>

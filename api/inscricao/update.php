@@ -23,7 +23,7 @@ $inscr->valor = $data->valor;
 $inscr->status = $data->status;
 $inscr->data_inscricao = $data->data_inscricao;
 
-// Update inscr
+// Update evento
 if ($inscr->update()) {
     echo json_encode(
         array('message' => 'Updated')
