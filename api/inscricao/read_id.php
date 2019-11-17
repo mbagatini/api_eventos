@@ -19,8 +19,5 @@ $inscr->evento = isset($_GET['evento']) ? $_GET['evento'] : die();
 // Get
 $inscr->read_id();
 
-// Create array
-$post_arr = array($inscr);
-
 // Make JSON
-print_r(json_encode($post_arr));
+print_r(json_encode($inscr));
