@@ -132,6 +132,32 @@ class Usuario
         $row = $stmt->fetch(PDO::FETCH_ASSOC);
 
         // Set properties
+        $this->id = $row['id'];
+        $this->nome = $row['nome'];
+        $this->cpf = $row['cpf'];
+        $this->email = $row['email'];
+        $this->senha = $row['senha'];
+        $this->endereco = $row['endereco'];
+    }
+
+    public function login() {
+        $query = 'SELECT * FROM ' . $this->table . '
+                  WHERE email = ? 
+                    AND senha = ?';
+
+        // Prepare statement
+        $stmt = $this->conn->prepare($query);
+
+        // Bind ID
+        $stmt->bindParam(1, $this->email);
+        $stmt->bindParam(2, $this->senha);
+
+        // Execute query
+        $stmt->execute();
+        $row = $stmt->fetch(PDO::FETCH_ASSOC);
+
+        // Set properties
+        $this->id = $row['id'];
         $this->nome = $row['nome'];
         $this->cpf = $row['cpf'];
         $this->email = $row['email'];
