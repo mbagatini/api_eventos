@@ -2,8 +2,213 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1ff712c5-dae6-4bbc-952f-69a2b64001d5" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/email.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/phpmailer/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/phpmailer/README" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/phpmailer/changelog.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/phpmailer/class.phpmailer.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/phpmailer/class.pop3.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/phpmailer/class.smtp.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/phpmailer/docs.ini" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/phpmailer/docs/Callback_function_notes.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/phpmailer/docs/DomainKeys_notes.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/phpmailer/docs/Note_for_SMTP_debugging.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/phpmailer/docs/extending.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/phpmailer/docs/faq.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/phpmailer/docs/makedocs2.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/phpmailer/docs/phpdoc/classes.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/phpmailer/docs/phpdoc/classes/PHPMailer.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/phpmailer/docs/phpdoc/classes/POP3.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/phpmailer/docs/phpdoc/classes/SMTP.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/phpmailer/docs/phpdoc/classes/phpmailerException.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/phpmailer/docs/phpdoc/css/bootstrap-responsive.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/phpmailer/docs/phpdoc/css/bootstrap-responsive.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/phpmailer/docs/phpdoc/css/bootstrap.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/phpmailer/docs/phpdoc/css/bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/phpmailer/docs/phpdoc/css/jquery.iviewer.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/phpmailer/docs/phpdoc/css/prettify.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/phpmailer/docs/phpdoc/css/template.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/phpmailer/docs/phpdoc/deprecated.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/phpmailer/docs/phpdoc/errors.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/phpmailer/docs/phpdoc/graph_class.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/phpmailer/docs/phpdoc/img/apple-touch-icon-114x114.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/phpmailer/docs/phpdoc/img/apple-touch-icon-72x72.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/phpmailer/docs/phpdoc/img/apple-touch-icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/phpmailer/docs/phpdoc/img/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/phpmailer/docs/phpdoc/img/glyphicons-halflings-white.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/phpmailer/docs/phpdoc/img/glyphicons-halflings.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/phpmailer/docs/phpdoc/img/icons/arrow_down.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/phpmailer/docs/phpdoc/img/icons/arrow_right.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/phpmailer/docs/phpdoc/img/icons/class.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/phpmailer/docs/phpdoc/img/icons/constant.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/phpmailer/docs/phpdoc/img/icons/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/phpmailer/docs/phpdoc/img/icons/file-php.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/phpmailer/docs/phpdoc/img/icons/file.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/phpmailer/docs/phpdoc/img/icons/folder.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/phpmailer/docs/phpdoc/img/icons/function.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/phpmailer/docs/phpdoc/img/icons/icon-folder-open-big.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/phpmailer/docs/phpdoc/img/icons/icon-th-big.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/phpmailer/docs/phpdoc/img/icons/icon_template.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/phpmailer/docs/phpdoc/img/icons/interface.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/phpmailer/docs/phpdoc/img/icons/method.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/phpmailer/docs/phpdoc/img/icons/ok.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/phpmailer/docs/phpdoc/img/icons/property.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/phpmailer/docs/phpdoc/img/icons/search.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/phpmailer/docs/phpdoc/img/icons/variable.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/phpmailer/docs/phpdoc/img/icons/view_source.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/phpmailer/docs/phpdoc/img/icons/visibility_private.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/phpmailer/docs/phpdoc/img/icons/visibility_protected.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/phpmailer/docs/phpdoc/img/icons/visibility_public.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/phpmailer/docs/phpdoc/img/iviewer/grab.cur" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/phpmailer/docs/phpdoc/img/iviewer/hand.cur" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/phpmailer/docs/phpdoc/img/iviewer/iviewer.rotate_left.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/phpmailer/docs/phpdoc/img/iviewer/iviewer.rotate_right.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/phpmailer/docs/phpdoc/img/iviewer/iviewer.zoom_fit.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/phpmailer/docs/phpdoc/img/iviewer/iviewer.zoom_fit2.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/phpmailer/docs/phpdoc/img/iviewer/iviewer.zoom_in.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/phpmailer/docs/phpdoc/img/iviewer/iviewer.zoom_in2.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/phpmailer/docs/phpdoc/img/iviewer/iviewer.zoom_out.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/phpmailer/docs/phpdoc/img/iviewer/iviewer.zoom_out2.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/phpmailer/docs/phpdoc/img/iviewer/iviewer.zoom_zero.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/phpmailer/docs/phpdoc/img/iviewer/iviewer.zoom_zero2.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/phpmailer/docs/phpdoc/img/loader.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/phpmailer/docs/phpdoc/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/phpmailer/docs/phpdoc/js/SVGPan.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/phpmailer/docs/phpdoc/js/bootstrap.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/phpmailer/docs/phpdoc/js/bootstrap.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/phpmailer/docs/phpdoc/js/jquery-1.4.2.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/phpmailer/docs/phpdoc/js/jquery-1.7.1.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/phpmailer/docs/phpdoc/js/jquery-ui-1.8.2.custom.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/phpmailer/docs/phpdoc/js/jquery.cookie.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/phpmailer/docs/phpdoc/js/jquery.iviewer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/phpmailer/docs/phpdoc/js/jquery.iviewer.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/phpmailer/docs/phpdoc/js/jquery.mousewheel.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/phpmailer/docs/phpdoc/js/jquery.panzoom.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/phpmailer/docs/phpdoc/js/jquery.splitter.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/phpmailer/docs/phpdoc/js/jquery.tools.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/phpmailer/docs/phpdoc/js/jquery.treeview.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/phpmailer/docs/phpdoc/js/menu.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/phpmailer/docs/phpdoc/js/prettify/lang-apollo.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/phpmailer/docs/phpdoc/js/prettify/lang-clj.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/phpmailer/docs/phpdoc/js/prettify/lang-css.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/phpmailer/docs/phpdoc/js/prettify/lang-go.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/phpmailer/docs/phpdoc/js/prettify/lang-hs.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/phpmailer/docs/phpdoc/js/prettify/lang-lisp.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/phpmailer/docs/phpdoc/js/prettify/lang-lua.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/phpmailer/docs/phpdoc/js/prettify/lang-ml.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/phpmailer/docs/phpdoc/js/prettify/lang-n.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/phpmailer/docs/phpdoc/js/prettify/lang-proto.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/phpmailer/docs/phpdoc/js/prettify/lang-scala.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/phpmailer/docs/phpdoc/js/prettify/lang-sql.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/phpmailer/docs/phpdoc/js/prettify/lang-tex.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/phpmailer/docs/phpdoc/js/prettify/lang-vb.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/phpmailer/docs/phpdoc/js/prettify/lang-vhdl.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/phpmailer/docs/phpdoc/js/prettify/lang-wiki.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/phpmailer/docs/phpdoc/js/prettify/lang-xq.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/phpmailer/docs/phpdoc/js/prettify/lang-yaml.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/phpmailer/docs/phpdoc/js/prettify/prettify.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/phpmailer/docs/phpdoc/js/sidebar.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/phpmailer/docs/phpdoc/js/template.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/phpmailer/docs/phpdoc/markers.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/phpmailer/docs/phpdoc/namespaces/global.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/phpmailer/docs/phpdoc/packages/PHPMailer.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/phpmailer/docs/phpdoc/structure.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/phpmailer/docs/pop3_article.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/phpmailer/docs/use_gmail.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/phpmailer/examples/contents.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/phpmailer/examples/images/phpmailer.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/phpmailer/examples/images/phpmailer_mini.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/phpmailer/examples/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/phpmailer/examples/test_db_smtp_basic.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/phpmailer/examples/test_mail_advanced.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/phpmailer/examples/test_mail_basic.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/phpmailer/examples/test_pop_before_smtp_advanced.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/phpmailer/examples/test_pop_before_smtp_basic.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/phpmailer/examples/test_sendmail_advanced.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/phpmailer/examples/test_sendmail_basic.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/phpmailer/examples/test_smtp_advanced.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/phpmailer/examples/test_smtp_advanced_no_auth.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/phpmailer/examples/test_smtp_basic.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/phpmailer/examples/test_smtp_basic_no_auth.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/phpmailer/examples/test_smtp_gmail_advanced.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/phpmailer/examples/test_smtp_gmail_basic.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/phpmailer/extras/class.html2text.inc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/phpmailer/extras/htmlfilter.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/phpmailer/extras/ntlm_sasl_client.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/phpmailer/language/phpmailer.lang-ar.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/phpmailer/language/phpmailer.lang-br.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/phpmailer/language/phpmailer.lang-ca.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/phpmailer/language/phpmailer.lang-ch.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/phpmailer/language/phpmailer.lang-cz.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/phpmailer/language/phpmailer.lang-de.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/phpmailer/language/phpmailer.lang-dk.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/phpmailer/language/phpmailer.lang-es.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/phpmailer/language/phpmailer.lang-et.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/phpmailer/language/phpmailer.lang-fi.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/phpmailer/language/phpmailer.lang-fo.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/phpmailer/language/phpmailer.lang-fr.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/phpmailer/language/phpmailer.lang-hu.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/phpmailer/language/phpmailer.lang-it.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/phpmailer/language/phpmailer.lang-ja.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/phpmailer/language/phpmailer.lang-nl.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/phpmailer/language/phpmailer.lang-no.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/phpmailer/language/phpmailer.lang-pl.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/phpmailer/language/phpmailer.lang-ro.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/phpmailer/language/phpmailer.lang-ru.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/phpmailer/language/phpmailer.lang-se.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/phpmailer/language/phpmailer.lang-sk.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/phpmailer/language/phpmailer.lang-tr.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/phpmailer/language/phpmailer.lang-zh.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/phpmailer/language/phpmailer.lang-zh_cn.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/phpmailer/test/contents.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/phpmailer/test/phpmailerTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/phpmailer/test/test.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/phpmailer/test/test_callback.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/phpmailer/test/testemail.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/phpmailer/test_script/LGPLv3.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/phpmailer/test_script/contents.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/phpmailer/test_script/images/aikido.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/phpmailer/test_script/images/bkgrnd.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/phpmailer/test_script/images/phpmailer.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/phpmailer/test_script/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/phpmailer/test_script/scripts/clipboard.swf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/phpmailer/test_script/scripts/shBrushBash.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/phpmailer/test_script/scripts/shBrushCSharp.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/phpmailer/test_script/scripts/shBrushCpp.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/phpmailer/test_script/scripts/shBrushCss.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/phpmailer/test_script/scripts/shBrushDelphi.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/phpmailer/test_script/scripts/shBrushDiff.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/phpmailer/test_script/scripts/shBrushGroovy.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/phpmailer/test_script/scripts/shBrushJScript.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/phpmailer/test_script/scripts/shBrushJava.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/phpmailer/test_script/scripts/shBrushPerl.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/phpmailer/test_script/scripts/shBrushPhp.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/phpmailer/test_script/scripts/shBrushPlain.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/phpmailer/test_script/scripts/shBrushPython.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/phpmailer/test_script/scripts/shBrushRuby.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/phpmailer/test_script/scripts/shBrushScala.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/phpmailer/test_script/scripts/shBrushSql.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/phpmailer/test_script/scripts/shBrushVb.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/phpmailer/test_script/scripts/shBrushXml.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/phpmailer/test_script/scripts/shCore.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/phpmailer/test_script/scripts/shLegacy.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/phpmailer/test_script/src/shCore.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/phpmailer/test_script/src/shLegacy.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/phpmailer/test_script/styles/help.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/phpmailer/test_script/styles/magnifier.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/phpmailer/test_script/styles/page_white_code.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/phpmailer/test_script/styles/page_white_copy.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/phpmailer/test_script/styles/printer.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/phpmailer/test_script/styles/shCore.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/phpmailer/test_script/styles/shThemeDefault.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/phpmailer/test_script/styles/shThemeDjango.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/phpmailer/test_script/styles/shThemeEmacs.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/phpmailer/test_script/styles/shThemeFadeToGrey.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/phpmailer/test_script/styles/shThemeMidnight.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/phpmailer/test_script/styles/shThemeRDark.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/phpmailer/test_script/styles/wrapping.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/phpmailer/test_script/test.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/inscricao/read_id.php" beforeDir="false" afterPath="$PROJECT_DIR$/api/inscricao/read_id.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -27,7 +232,7 @@
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/api/usuario" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -38,16 +243,17 @@
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\adm\Documents\html\api_eventos\api" />
-      <recent name="C:\Users\adm\Documents\html\api_eventos" />
-      <recent name="C:\Users\adm\Documents\html\api_eventos\api\inscricao" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\adm\Documents\html\api_eventos" />
       <recent name="C:\Users\adm\Documents\html\api_eventos\api\usuario" />
       <recent name="C:\Users\adm\Documents\html\api_eventos\model" />
       <recent name="C:\Users\adm\Documents\html\api_eventos\api\certificado" />
       <recent name="C:\Users\adm\Documents\html\api_eventos\api\evento" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\adm\Documents\html\api_eventos\api" />
+      <recent name="C:\Users\adm\Documents\html\api_eventos" />
+      <recent name="C:\Users\adm\Documents\html\api_eventos\api\inscricao" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -81,7 +287,7 @@
       <workItem from="1573908725654" duration="308000" />
       <workItem from="1573910392165" duration="258000" />
       <workItem from="1573911583677" duration="9744000" />
-      <workItem from="1574018656400" duration="2268000" />
+      <workItem from="1574018656400" duration="4395000" />
     </task>
     <servers />
   </component>
