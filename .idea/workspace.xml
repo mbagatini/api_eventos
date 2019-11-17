@@ -2,76 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1ff712c5-dae6-4bbc-952f-69a2b64001d5" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/api/certificado/create.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/certificado/generate.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/certificado/validate.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fpdf/doc/__construct.htm" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fpdf/doc/acceptpagebreak.htm" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fpdf/doc/addfont.htm" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fpdf/doc/addlink.htm" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fpdf/doc/addpage.htm" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fpdf/doc/aliasnbpages.htm" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fpdf/doc/cell.htm" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fpdf/doc/close.htm" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fpdf/doc/error.htm" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fpdf/doc/footer.htm" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fpdf/doc/getpageheight.htm" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fpdf/doc/getpagewidth.htm" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fpdf/doc/getstringwidth.htm" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fpdf/doc/getx.htm" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fpdf/doc/gety.htm" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fpdf/doc/header.htm" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fpdf/doc/image.htm" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fpdf/doc/index.htm" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fpdf/doc/line.htm" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fpdf/doc/link.htm" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fpdf/doc/ln.htm" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fpdf/doc/multicell.htm" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fpdf/doc/output.htm" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fpdf/doc/pageno.htm" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fpdf/doc/rect.htm" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fpdf/doc/setauthor.htm" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fpdf/doc/setautopagebreak.htm" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fpdf/doc/setcompression.htm" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fpdf/doc/setcreator.htm" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fpdf/doc/setdisplaymode.htm" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fpdf/doc/setdrawcolor.htm" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fpdf/doc/setfillcolor.htm" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fpdf/doc/setfont.htm" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fpdf/doc/setfontsize.htm" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fpdf/doc/setkeywords.htm" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fpdf/doc/setleftmargin.htm" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fpdf/doc/setlinewidth.htm" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fpdf/doc/setlink.htm" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fpdf/doc/setmargins.htm" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fpdf/doc/setrightmargin.htm" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fpdf/doc/setsubject.htm" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fpdf/doc/settextcolor.htm" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fpdf/doc/settitle.htm" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fpdf/doc/settopmargin.htm" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fpdf/doc/setx.htm" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fpdf/doc/setxy.htm" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fpdf/doc/sety.htm" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fpdf/doc/text.htm" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fpdf/doc/write.htm" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fpdf/font/courier.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fpdf/font/courierb.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fpdf/font/courierbi.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fpdf/font/courieri.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fpdf/font/helvetica.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fpdf/font/helveticab.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fpdf/font/helveticabi.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fpdf/font/helveticai.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fpdf/font/symbol.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fpdf/font/times.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fpdf/font/timesb.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fpdf/font/timesbi.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fpdf/font/timesi.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fpdf/font/zapfdingbats.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fpdf/fpdf.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fpdf/fpdf.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fpdf/license.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/model/Certificado.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/usuario/create.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/usuario/read_id.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/usuario/update.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/Usuario.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -96,7 +30,7 @@
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/api/certificado" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/model" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -113,8 +47,9 @@
       <recent name="C:\Users\adm\Documents\html\api_eventos\api\inscricao" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\adm\Documents\html\api_eventos\api\certificado" />
       <recent name="C:\Users\adm\Documents\html\api_eventos\model" />
+      <recent name="C:\Users\adm\Documents\html\api_eventos\api\usuario" />
+      <recent name="C:\Users\adm\Documents\html\api_eventos\api\certificado" />
       <recent name="C:\Users\adm\Documents\html\api_eventos\api\evento" />
     </key>
   </component>
@@ -148,7 +83,7 @@
       <workItem from="1573906054424" duration="1792000" />
       <workItem from="1573908725654" duration="308000" />
       <workItem from="1573910392165" duration="258000" />
-      <workItem from="1573911583677" duration="4435000" />
+      <workItem from="1573911583677" duration="6833000" />
     </task>
     <servers />
   </component>
