@@ -21,8 +21,48 @@ class Inscricao
 
     public function create()
     {
-        $query = $query = 'INSERT INTO ' . $this->table . ' SET usuario = :usuario, evento = :evento, valor = :valor, status = :status, data_inscricao = :data_inscricao';
+        try {
+            $query = $query = 'INSERT INTO ' . $this->table . ' SET usuario = :usuario, evento = :evento, valor = :valor, status = :status, data_inscricao = :data_inscricao';
 
+            $stmt = $this->conn->prepare($query);
+
+            // Clean data
+            $this->usuario = htmlspecialchars(strip_tags($this->usuario));
+            $this->evento = htmlspecialchars(strip_tags($this->evento));
+            $this->valor = htmlspecialchars(strip_tags($this->valor));
+            $this->status = htmlspecialchars(strip_tags($this->status));
+            $this->data_inscricao = htmlspecialchars(strip_tags($this->data_inscricao));
+
+            // Bind data
+            $stmt->bindParam(':usuario', $this->usuario);
+            $stmt->bindParam(':evento', $this->evento);
+            $stmt->bindParam(':valor', $this->valor);
+            $stmt->bindParam(':status', $this->status);
+            $stmt->bindParam(':data_inscricao', $this->data_inscricao);
+
+            // Execute query
+            if ($stmt->execute()) {
+                printf("Error: %s.\n", $stmt->error);
+                return true;
+            }
+        } catch (Exception $e) {
+            return false;
+        }
+
+        // Print error if something goes wrong
+        printf("Error: %s.\n", $stmt->error);
+        return false;
+    }
+
+    public function update()
+    {
+        // Create query
+        $query = 'UPDATE ' . $this->table . '
+                    SET valor = :valor, status = :status, data_inscricao = :data_inscricao
+                    WHERE usuario = :usuario
+                      AND evento = :evento';
+
+        // Prepare statement
         $stmt = $this->conn->prepare($query);
 
         // Clean data
@@ -49,41 +89,8 @@ class Inscricao
         return false;
     }
 
-    public function update() {
-        // Create query
-        $query = 'UPDATE ' . $this->table . '
-                    SET valor = :valor, status = :status, data_inscricao = :data_inscricao
-                    WHERE usuario = :usuario
-                      AND evento = :evento';
-
-        // Prepare statement
-        $stmt = $this->conn->prepare($query);
-
-        // Clean data
-        $this->usuario = htmlspecialchars(strip_tags($this->usuario));
-        $this->evento = htmlspecialchars(strip_tags($this->evento));
-        $this->valor = htmlspecialchars(strip_tags($this->valor));
-        $this->status = htmlspecialchars(strip_tags($this->status));
-        $this->data_inscricao = htmlspecialchars(strip_tags($this->data_inscricao));
-
-        // Bind data
-        $stmt->bindParam(':usuario', $this->usuario);
-        $stmt->bindParam(':evento', $this->evento);
-        $stmt->bindParam(':valor', $this->valor);
-        $stmt->bindParam(':status', $this->status);
-        $stmt->bindParam(':data_inscricao', $this->data_inscricao);
-
-        // Execute query
-        if($stmt->execute()) {
-            return true;
-        }
-
-        // Print error if something goes wrong
-        printf("Error: %s.\n", $stmt->error);
-        return false;
-    }
-
-    public function delete() {
+    public function delete()
+    {
         // Create query
         $query = 'DELETE FROM ' . $this->table . ' 
                     WHERE usuario = :usuario
@@ -101,7 +108,7 @@ class Inscricao
         $stmt->bindParam(':evento', $this->evento);
 
         // Execute query
-        if($stmt->execute()) {
+        if ($stmt->execute()) {
             return true;
         }
 
@@ -123,16 +130,16 @@ class Inscricao
 
         return $stmt;
     }
-	
-	public function read_user()
+
+    public function read_user()
     {
         $query = 'SELECT i.*, e.nome as nome_evento
 		            FROM ' . $this->table . ' i, evento e 
 			       WHERE i.evento = e.id
 				     AND i.usuario = ?
 			       ORDER BY data_inscricao DESC';
-				   
-		// Prepare statement
+
+        // Prepare statement
         $stmt = $this->conn->prepare($query);
 
         // Bind ID
@@ -144,7 +151,27 @@ class Inscricao
         return $stmt;
     }
 
-    public function read_id() {
+    public function read_event()
+    {
+        $query = 'SELECT *
+		            FROM ' . $this->table . '
+			       WHERE evento = ?
+			       ORDER BY data_inscricao DESC';
+
+        // Prepare statement
+        $stmt = $this->conn->prepare($query);
+
+        // Bind ID
+        $stmt->bindParam(1, $this->evento);
+
+        // Execute query
+        $stmt->execute();
+
+        return $stmt;
+    }
+
+    public function read_id()
+    {
         $query = 'SELECT * FROM ' . $this->table . '
                   WHERE usuario = ? AND evento = ? ';
 

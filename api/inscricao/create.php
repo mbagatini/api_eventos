@@ -25,10 +25,12 @@ $inscr->data_inscricao = $data->data_inscricao;
 
 // Create evento
 if ($inscr->create()) {
+    http_response_code(200);
     echo json_encode(
         array('message' => 'Created')
     );
 } else {
+    http_response_code(405);
     echo json_encode(
         array('message' => 'Error')
     );
